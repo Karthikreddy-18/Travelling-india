@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="cool.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="tourism-card">
+                <h1 class="main-heading">Travelling</h1>
+                <p class="paragraph">Plan your trip wherever you want to go </p>
+                <button class="button" onclick="display('sectionPlaces')">
+                    Get started
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionPlaces">
+        <div class="favourite-places-bg-container">
+            <button class="btn btn primary" onclick="display('sectionHome')">Back</button>
+            <h1 class="favourite-places-heading">
+                Travelling Places in India
+            </h1>
+
+            <div class="favourite-places-card-container d-flex flex-row" onclick="display('sectionTaj')">
+                <div>
+                    <h1 class="favourite-places-card-heading">Taj Mahal</h1>
+                    <p class="favourite-places-card-description">If there was just one symbol to represent all of India, it would be Taj Mahal</p>
+                </div>
+                <div>
+                    <img src="https://i.pinimg.com/736x/10/ef/53/10ef53eb359ad7cd4922da579490684a.jpg" class="favourite-places-card-image" />
+                </div>
+            </div>
+
+            <div class="favourite-places-card-container d-flex flex-row" onclick="display('sectioncharminar')">
+                <div>
+                    <h1 class="favourite-places-card-heading">Charminar</h1>
+                    <p class="favourite-places-card-description">The Charminar is a stunning 16th-century monument in Hyderabad, famous for its four towering minarets and vibrant surrounding markets. </p>
+                </div>
+                <div>
+                    <img src="https://i.pinimg.com/736x/38/9e/2b/389e2b5dbd406338f6d48d7892849c34.jpg" class="favourite-places-card-image" />
+                </div>
+            </div>
+
+            <div class="favourite-places-card-container d-flex flex-row" onclick="display('sectionStatue')">
+                <div>
+                    <h1 class="favourite-places-card-heading">Statue of Unity</h1>
+                    <p class="favourite-places-card-description">The Statue of Unity, towering at 182 meters in Gujarat, is a breathtaking tribute to Sardar Vallabhbhai Patel that offers panoramic views from its observation deck</p>
+                </div>
+                <div>
+                    <img src="https://i.pinimg.com/736x/35/38/f3/3538f385e0b0aff5eea9c7e2dfe74860.jpg" class="favourite-places-card-image" />
+                </div>
+            </div>
+
+            <div class="favourite-places-card-container d-flex flex-row" onclick="display('sectionKailash')">
+                <div>
+                    <h1 class="favourite-places-card-heading">Kailash temple</h1>
+                    <p class="favourite-places-card-description">The Kailash Temple at Ellora is a breathtaking tourist marvel carved entirely from a single rock, featuring intricate sculptures of gods and giants that defy imagination</p>
+                </div>
+                <div>
+                    <img src="https://i.pinimg.com/736x/52/68/9d/52689df4400a470f8a1877b0e361c80b.jpg" class="favourite-places-card-image" />
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="sectionTaj">
+        <div class="detailed-view-bg-container">
+            <button class="btnn btnn primary" onclick="display('sectionPlaces')">Back</button>
+            <h1 class="detailed-view-heading">
+                Detailed View of Places !
+            </h1>
+            <div class="detailed-view-card-container">
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6rTpDK1ea0s?rel=0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <h1 class="detailed-view-card-head">Taj Mahal</h1>
+                <p class="detailed-view-card-description">
+                    The Taj Mahal is a stunning white marble mausoleum in Agra, India, commissioned in 1632 by Mughal Emperor Shah Jahan to house the tomb of his favorite wife, Mumtaz Mahal. It took approximately 22 years to complete and required the labor of over 20,000 artisans from across the empire. Recognized as a UNESCO World Heritage site, it is celebrated as the finest example of Mughal architecture and is considered one of the most beautiful buildings in the world. The structure perfectly blends Persian, Islamic, and Indian architectural styles, featuring intricate inlay work and symmetrical gardens.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <div>
+
+        <div id="sectioncharminar">
+            <div class="detailed-view-bg-container">
+                <button class="btnn btnn primary" onclick="display('sectionPlaces')">Back</button>
+                <h1 class="detailed-view-heading">
+                    Detailed View of Places !
+                </h1>
+                <div class="detailed-view-card-container">
+                    <div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bvsqWMekeIA?rel=0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <h1 class="detailed-view-card-head">Charminar</h1>
+                    <p class="detailed-view-card-description">
+                        The Charminar is a historic monument and mosque located in Hyderabad, India, built in 1591 by Sultan Muhammad Quli Qutb Shah. Standing 56 meters tall, it features four grand arches and four iconic minarets, each rising to 48 meters with double balconies and spiral staircases. Constructed from granite, limestone, and mortar, the structure serves as the official symbol of Hyderabad and a masterpiece of Indo-Islamic architecture. Originally built to commemorate the end of a deadly plague, it also housed a mosque on the second floor for public prayers. The ground floor is surrounded by a bustling market known as Laad Bazaar, famous for its traditional bangles, pearls, and textiles. Today, it remains one of the most visited landmarks in India, attracting tourists and pilgrims from around the world.
+                    </p>
+                    <h2 class="more-places">Also places to visit near Charminar</h2>
+                    <ul>
+                        <li>Salarjung Museum</li>
+                        <li>Mecca Masjid</li>
+                        <li>Chowmahalla Palace</li>
+                        <li>Birla Mandir</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div>
+
+            <div id="sectionStatue">
+                <div class="detailed-view-bg-container">
+                    <button class="btnn btnn primary" onclick="display('sectionPlaces')">Back</button>
+                    <h1 class="detailed-view-heading">
+                        Detailed View of Places !
+                    </h1>
+                    <div class="detailed-view-card-container">
+                        <div>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FxFvxXTc4bA?rel=0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <h1 class="detailed-view-card-head">Statue of Unity</h1>
+                        <p class="detailed-view-card-description">
+                            The Statue of Unity is the world's tallest statue, standing at 182 meters (597 feet) located on Sadhu Bet island in the Narmada district of Gujarat, India. It depicts Sardar Vallabhbhai Patel, a key leader in India's independence movement who played a pivotal role in unifying over 500 princely states into the nation. Constructed between 2013 and 2018, the statue was built using nearly 109,000 bronze sculptures collected from farmers across India to symbolize unity and strength. The structure features a viewing gallery at 153 meters, offering panoramic views of the Sardar Sarovar Dam and the surrounding Narmada River valley. Designed by Indian sculptor Ram V. Sutar, the monument serves as a major tourist destination and a tribute to Patel's legacy of national integration. The complex includes a memorial, museum, and an exhibition area dedicated to Patel's life and the history of India's unification.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+
+
+            </div>
+
+        </div>
+
+        <div id="sectionKailash">
+            <div class="detailed-view-bg-container">
+                <button class="btnn btnn primary" onclick="display('sectionPlaces')">Back</button>
+                <h1 class="detailed-view-heading">
+                    Detailed View of Places !
+                </h1>
+                <div class="detailed-view-card-container">
+                    <div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NrB5rvEMyo0?rel=0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <h1 class="detailed-view-card-head">Kailash Temple</h1>
+                    <p class="detailed-view-card-description">
+                        The Kailasa Temple is a monumental rock-cut structure located in the Ellora Caves of Maharashtra, India, dedicated to Lord Shiva. Carved top-down from a single massive basalt ridge, it is widely considered one of the most remarkable architectural feats in human history. Constructed during the 8th century under the Rashtrakuta king Krishna I, the temple mimics Mount Kailash, the divine abode of Shiva. The entire complex, including its towering gateway, massive pillars, and intricate sculptures of deities, was created by removing approximately 200,000 tons of rock. Artisans worked for decades without blueprints, meticulously chiseling the stone to create a structure that appears to float above a deep trench. Today, it stands as a UNESCO World Heritage site, celebrated for its unique monolithic design and exquisite artistic detail.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div>
+
+
+        </div>
+
+    </div>
+
+
+    </div>
+    <script type="text/javascript" src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    </div>
+</body>
+
+</html>

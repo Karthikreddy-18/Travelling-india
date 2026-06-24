@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-heading {
+    color: black;
+    font-family: "Playfair display SC";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.paragraph {
+    color: black;
+    font-weight: bold;
+}
+
+.tourism-card {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    background-color: #87CEFA;
+    padding: 10px;
+}
+
+.font-size {
+    font-family: Monoton;
+}
+
+.bg-container {
+    background-image: url("https://i.pinimg.com/736x/d6/80/10/d68010947e8e2cc501b88b231d9d7c33.jpg");
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.button {
+    height: 35px;
+    width: 100px;
+    background-color: lightblue;
+    font-weight: bold;
+    border-radius: 25px;
+    border-width: 0px;
+}
+
+
+
+.favourite-places-bg-container {
+    background-image: url("https://i.pinimg.com/736x/85/8e/94/858e94afd9c2ff85c5a077c313072866.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.favourite-places-heading {
+    color: black;
+    font-size: 30px;
+    font-family: Playfair display SC;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.favourite-places-card-container {
+    background-color: #d29655;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.favourite-places-card-heading {
+    color: black;
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: bold;
+
+}
+
+.favourite-places-card-description {
+    font-family: Courier;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.favourite-places-card-image {
+    width: 80px;
+    height: 100px;
+}
+
+
+.detailed-view-bg-container {
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/seabg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.detailed-view-heading {
+    color: white;
+    font-size: 28px;
+    font-family: Playfair display SC;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 10px;
+
+
+
+}
+
+.detailed-view-card-head {
+    color: #010101;
+    font-family: Playfair display SC;
+    padding: 10px;
+
+}
+
+.detailed-view-card-description {
+    padding: 10px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: lightblue;
+    font-weight: bold;
+    border-radius: 25px;
+    border-width: 0px;
+    padding: 7px;
+    margin: 10px;
+}
+
+.btnn {
+    height: 35px;
+    width: 100px;
+    background-color: lightblue;
+    font-weight: bold;
+    border-radius: 25px;
+    border-width: 0px;
+    padding: 7px;
+    margin: 10px;
+}
+.more-places{
+    font-family: cursive;
+    font-weight: bold;
+    padding: 5px;
+}
